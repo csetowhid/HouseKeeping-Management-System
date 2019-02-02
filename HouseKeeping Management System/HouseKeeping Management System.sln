@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseKeeping Management System", "HouseKeeping Management System\HouseKeeping Management System.csproj", "{21B39394-D935-4843-8CD4-6C744FA17360}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21B39394-D935-4843-8CD4-6C744FA17360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21B39394-D935-4843-8CD4-6C744FA17360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21B39394-D935-4843-8CD4-6C744FA17360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21B39394-D935-4843-8CD4-6C744FA17360}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {774DC78E-843A-4B19-B7C5-D65D7E544D04}
+	EndGlobalSection
+EndGlobal
