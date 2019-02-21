@@ -13,3 +13,24 @@ F:\Spring-19\HouseKeeping Management System\HouseKeeping Management System\obj\D
 F:\Spring-19\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System.csproj.CoreCompileInputs.cache
 F:\Spring-19\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System.exe
 F:\Spring-19\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System.pdb
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System.csprojAssemblyReference.cache
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\MainWindow.g.cs
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\App.g.cs
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System_MarkupCompile.cache
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System_MarkupCompile.lref
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\MainWindow.baml
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System.g.resources
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System.pdb
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\bin\Debug\HouseKeeping Management System.exe.config
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\bin\Debug\HouseKeeping Management System.exe
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\bin\Debug\HouseKeeping Management System.pdb
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping_Management_System.Properties.Resources.resources
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System.csproj.GenerateResource.cache
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System.csproj.CoreCompileInputs.cache
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System.exe
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Sign Up.g.cs
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Sign Up.baml
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Employer Sign Up.g.cs
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Employer Sign Up.baml
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Employee Sign Up.g.cs
+F:\Spring-19\CSE-3204\Project\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Employee Sign Up.baml

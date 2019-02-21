@@ -9,9 +9,11 @@
     <Grid>
         <Grid HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="250" Background="#FF5C99D6"/>
         <Grid HorizontalAlignment="Left" Height="70" Margin="250,0,0,0" VerticalAlignment="Top" Width="798" Background="#FF5C99D6" MouseLeftButtonDown="grid_down">
-            <TextBlock HorizontalAlignment="Left" Margin="32,7,0,0" TextWrapping="Wrap" Text="HouseKeeping Management System" VerticalAlignment="Top" Height="56" Width="728" FontSize="48" FontFamily="Times New Roman" FontStyle="Italic" FontWeight="Bold" Foreground="#FFF7F7F7"/>
+            <TextBlock HorizontalAlignment="Left" Margin="32,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="56" Width="728" FontSize="48" FontFamily="Times New Roman" FontStyle="Italic" FontWeight="Bold" Foreground="#FFF7F7F7"><Run Text="HouseKeeping Management System"/><InlineUIContainer>
+                    <Grid Height="100" Width="100"/>
+                </InlineUIContainer></TextBlock>
         </Grid>
-        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="-2,328,0,0" VerticalAlignment="Top" Width="250" Height="64" FontSize="36" FontFamily="Monotype Corsiva" Background="#FF5C99D6" Foreground="#FFF0E7E7"  BorderBrush="#FF5C99D6"/>
+        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="-2,328,0,0" VerticalAlignment="Top" Width="250" Height="64" FontSize="36" FontFamily="Monotype Corsiva" Background="#FF5C99D6" Foreground="#FFF0E7E7"  BorderBrush="#FF5C99D6" Click="btn_signup"/>
         <Image HorizontalAlignment="Left" Height="64" Margin="-1,326,0,0" VerticalAlignment="Top" Width="100" Source="icons/sign up.png" OpacityMask="#FFBD7A7A" RenderTransformOrigin="0.205,-0.156"/>
         <Grid Margin="-3,390,1053,246">
             <Grid.ColumnDefinitions>
@@ -45,7 +47,7 @@
                     <TextBlock Text="2.3K" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="33,132,-14,-118" Grid.Column="1"/>
                 </Grid>
             </StackPanel>
-            <Button Content="X" HorizontalAlignment="Left" Margin="226,0,0,0" VerticalAlignment="Top" Width="30" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit"/>
+            <Button Content="X" HorizontalAlignment="Left" Margin="226,0,0,0" VerticalAlignment="Top" Width="30" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White"/>
             <TextBlock HorizontalAlignment="Left" Margin="30,419,0,0" TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat ligula et ornare rutrum. Suspendisse vel nibh massa. Sed maximus porta augue eget viverra. Sed ullamcorper interdum ligula. Aenean vitae." VerticalAlignment="Top" Height="241" Width="186" Foreground="#FFF1E7E7"/>
         </Grid>
         <Button Content="Sign In" HorizontalAlignment="Left" Margin="-2,406,0,0" VerticalAlignment="Top" Width="250" Height="64" FontSize="36" FontFamily="Monotype Corsiva" Background="#FF5C99D6" Foreground="#FFF0E7E7" BorderBrush="#FF5C99D6"/>

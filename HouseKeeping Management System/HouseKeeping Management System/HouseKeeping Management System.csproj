@@ -55,6 +55,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Employee Sign Up.xaml.cs">
+      <DependentUpon>Employee Sign Up.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Employer Sign Up.xaml.cs">
+      <DependentUpon>Employer Sign Up.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Sign Up.xaml.cs">
+      <DependentUpon>Sign Up.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Employee Sign Up.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Employer Sign Up.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -67,6 +84,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Sign Up.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs">
@@ -120,13 +141,13 @@
     <Resource Include="icons\help.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="icons\back.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="icons\fb.png" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="icons\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="icons\employer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

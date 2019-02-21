@@ -35,6 +35,13 @@ namespace HouseKeeping_Management_System
             this.Close();
         }
 
+        private void btn_signup(object sender, RoutedEventArgs e)
+        {
+            Sign_Up su = new Sign_Up();
+            su.Show();
+            this.Close();
+        }
+
         private void btn_exit(object sender, RoutedEventArgs e)
         {
             this.Close();
