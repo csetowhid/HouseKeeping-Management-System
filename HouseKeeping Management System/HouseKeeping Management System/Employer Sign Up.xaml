@@ -7,9 +7,20 @@
         mc:Ignorable="d"
         Title="Employer_Sign_Up" Height="700" Width="1300" Background="#FF5C99D6" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid Height="700">
-        <Grid HorizontalAlignment="Left" Height="92" VerticalAlignment="Top" Width="1300" RenderTransformOrigin="-0.004,-0.364" Background="#FF6991C7" MouseLeftButtonDown="Grid_MouseLeft" Margin="0,-2,0,0">
+        <Grid HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="1300" RenderTransformOrigin="-0.004,-0.364" Background="#FF6991C7" MouseLeftButtonDown="Grid_MouseLeft" Margin="0,-2,0,0">
             <Label Content="Employer Sign Up" HorizontalAlignment="Left" Margin="515,2,0,0" VerticalAlignment="Top" Width="333" Height="76" Foreground="White" FontSize="48" FontFamily="Monotype Corsiva"/>
             <Button Content="X" HorizontalAlignment="Left" Margin="1279,-1,0,75" VerticalAlignment="Bottom" Width="20" Height="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="0.517,0.317"/>
+            <Image HorizontalAlignment="Left" Height="54" Margin="423,6,0,0" VerticalAlignment="Top" Width="52" Source="icons/employer.png"/>
+            <Image HorizontalAlignment="Left" Height="54" Margin="877,6,0,0" VerticalAlignment="Top" Width="52" Source="icons/employer.png"/>
         </Grid>
+        <Label Content="Full Name" HorizontalAlignment="Left" Margin="47,76,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="User Name" HorizontalAlignment="Left" Margin="47,113,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="47,150,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="47,261,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="47,224,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="47,187,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="47,299,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Blood Group" HorizontalAlignment="Left" Margin="47,337,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Blood Group" HorizontalAlignment="Left" Margin="39,401,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
     </Grid>
 </Window>
