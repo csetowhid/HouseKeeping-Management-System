@@ -23,5 +23,15 @@ namespace HouseKeeping_Management_System
         {
             InitializeComponent();
         }
+
+        private void Grid_MouseLeft(object sender, MouseButtonEventArgs e)
+        {
+            this.DragMove();
+        }
+
+        private void btn_exit(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 }

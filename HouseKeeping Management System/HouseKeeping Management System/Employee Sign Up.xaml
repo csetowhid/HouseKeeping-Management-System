@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HouseKeeping_Management_System"
         mc:Ignorable="d"
-        Title="Employee_Sign_Up" Height="450" Width="800" Background="#FF5C99D6">
+        Title="Employee_Sign_Up" Height="700" Width="1300" Background="#FF5C99D6" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        
+        <Grid HorizontalAlignment="Left" Height="72" VerticalAlignment="Top" Width="1300" RenderTransformOrigin="-0.004,-0.364" Background="#FF6991C7" MouseLeftButtonDown="Grid_MouseLeft" Margin="0,0,-8,0">
+            <Label Content="Employee Sign Up" HorizontalAlignment="Left" Margin="515,2,0,0" VerticalAlignment="Top" Width="333" Height="76" Foreground="White" FontSize="48" FontFamily="Monotype Corsiva"/>
+            <Button Content="X" HorizontalAlignment="Left" Margin="1279,-1,0,75" VerticalAlignment="Bottom" Width="20" Height="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="0.517,0.317"/>
+            <Button Content="X" HorizontalAlignment="Left" Margin="1282,-2,-2,56" VerticalAlignment="Bottom" Width="20" Height="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="0.517,0.317"/>
+        </Grid>
+
     </Grid>
 </Window>
