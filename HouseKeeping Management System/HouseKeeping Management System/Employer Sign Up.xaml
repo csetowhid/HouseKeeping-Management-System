@@ -9,6 +9,7 @@
     <Grid>
         <Grid HorizontalAlignment="Left" Height="92" VerticalAlignment="Top" Width="1300" RenderTransformOrigin="-0.004,-0.364" Background="#FF6991C7" MouseLeftButtonDown="Grid_MouseLeft" Margin="0,-2,0,0">
             <Label Content="Employer Sign Up" HorizontalAlignment="Left" Margin="515,2,0,0" VerticalAlignment="Top" Width="333" Height="76" Foreground="White" FontSize="48" FontFamily="Monotype Corsiva"/>
+            <Button Content="X" HorizontalAlignment="Left" Margin="1279,-1,0,75" VerticalAlignment="Bottom" Width="20" Height="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="0.517,0.317"/>
         </Grid>
     </Grid>
 </Window>

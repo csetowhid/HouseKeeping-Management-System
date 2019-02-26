@@ -28,5 +28,10 @@ namespace HouseKeeping_Management_System
         {
             this.DragMove();
         }
+
+        private void btn_exit(object sender, RoutedEventArgs e)
+        {
+                this.Close();
+        }
     }
 }
