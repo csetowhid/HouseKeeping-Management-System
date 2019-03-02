@@ -13,14 +13,23 @@
             <Image HorizontalAlignment="Left" Height="54" Margin="423,6,0,0" VerticalAlignment="Top" Width="52" Source="icons/employer.png"/>
             <Image HorizontalAlignment="Left" Height="54" Margin="877,6,0,0" VerticalAlignment="Top" Width="52" Source="icons/employer.png"/>
         </Grid>
-        <Label Content="Full Name" HorizontalAlignment="Left" Margin="47,76,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Label Content="User Name" HorizontalAlignment="Left" Margin="47,113,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Label Content="Email" HorizontalAlignment="Left" Margin="47,150,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Label Content="Address" HorizontalAlignment="Left" Margin="47,261,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Label Content="Phone" HorizontalAlignment="Left" Margin="47,224,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Label Content="Password" HorizontalAlignment="Left" Margin="47,187,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Label Content="Gender" HorizontalAlignment="Left" Margin="47,299,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Label Content="Blood Group" HorizontalAlignment="Left" Margin="47,337,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Label Content="Blood Group" HorizontalAlignment="Left" Margin="39,401,0,0" VerticalAlignment="Top" Height="34" Width="105" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Full Name" HorizontalAlignment="Left" Margin="47,79,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="User Name" HorizontalAlignment="Left" Margin="47,119,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="47,159,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="47,279,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="47,239,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="47,199,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="740,297,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Blood Group" HorizontalAlignment="Left" Margin="47,320,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Religion" HorizontalAlignment="Left" Margin="740,348,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Date Of Birth" HorizontalAlignment="Left" Margin="47,361,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="176,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="176,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="176,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="176,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="176,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBox HorizontalAlignment="Left" Height="35" Margin="176,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="176,199,0,0" VerticalAlignment="Top" Width="300" Height="35" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <DatePicker HorizontalAlignment="Left" Margin="176,361,0,0" VerticalAlignment="Top" Width="300" Height="114"/>
     </Grid>
 </Window>
