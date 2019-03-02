@@ -47,7 +47,7 @@
                     <TextBlock Text="2.3K" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="33,132,-14,-118" Grid.Column="1"/>
                 </Grid>
             </StackPanel>
-            <Button Content="X" HorizontalAlignment="Left" Margin="226,0,0,0" VerticalAlignment="Top" Width="30" Height="30" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White"/>
+            <Button Content="X" HorizontalAlignment="Left" Margin="226,0,0,0" VerticalAlignment="Top" Width="30" Height="30" Background="#FFF50A0A" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White"/>
             <TextBlock HorizontalAlignment="Left" Margin="30,419,0,0" TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat ligula et ornare rutrum. Suspendisse vel nibh massa. Sed maximus porta augue eget viverra. Sed ullamcorper interdum ligula. Aenean vitae." VerticalAlignment="Top" Height="241" Width="186" Foreground="#FFF1E7E7"/>
         </Grid>
         <Button Content="Sign In" HorizontalAlignment="Left" Margin="-2,406,0,0" VerticalAlignment="Top" Width="250" Height="64" FontSize="36" FontFamily="Monotype Corsiva" Background="#FF5C99D6" Foreground="#FFF0E7E7" BorderBrush="#FF5C99D6"/>
