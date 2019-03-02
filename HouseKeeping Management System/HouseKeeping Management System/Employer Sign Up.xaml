@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HouseKeeping_Management_System"
         mc:Ignorable="d"
-        Title="Employer_Sign_Up" Height="700" Width="1300" Background="#FF5C99D6" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
-    <Grid Height="700">
-        <Grid HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="1300" RenderTransformOrigin="-0.004,-0.364" Background="#FF6991C7" MouseLeftButtonDown="Grid_MouseLeft" Margin="0,-2,0,0">
-            <Label Content="Employer Sign Up" HorizontalAlignment="Left" Margin="515,2,0,0" VerticalAlignment="Top" Width="333" Height="76" Foreground="White" FontSize="48" FontFamily="Monotype Corsiva"/>
+        Title="Employer_Sign_Up" Height="600" Width="1100" Background="#FF5C99D6" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid Height="600">
+        <Grid HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="1102" RenderTransformOrigin="-0.004,-0.364" Background="#FF6991C7" MouseLeftButtonDown="Grid_MouseLeft" Margin="0,-2,0,0">
+            <Label Content="Employer Sign Up" HorizontalAlignment="Left" Margin="379,2,0,-8" VerticalAlignment="Top" Width="333" Height="76" Foreground="White" FontSize="48" FontFamily="Monotype Corsiva"/>
             <Button Content="X" HorizontalAlignment="Left" Margin="1279,-1,0,75" VerticalAlignment="Bottom" Width="20" Height="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="0.517,0.317"/>
-            <Image HorizontalAlignment="Left" Height="54" Margin="423,6,0,0" VerticalAlignment="Top" Width="52" Source="icons/employer.png"/>
-            <Image HorizontalAlignment="Left" Height="54" Margin="877,6,0,0" VerticalAlignment="Top" Width="52" Source="icons/employer.png"/>
+            <Image HorizontalAlignment="Left" Height="54" Margin="289,6,0,0" VerticalAlignment="Top" Width="52" Source="icons/employer.png"/>
+            <Image HorizontalAlignment="Left" Height="54" Margin="743,6,0,0" VerticalAlignment="Top" Width="52" Source="icons/employer.png"/>
+            <Button Content="X" HorizontalAlignment="Left" Margin="1072,1,0,0" VerticalAlignment="Top" Width="30" Height="30" Background="#FFF50A0A" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White"/>
         </Grid>
         <Label Content="Full Name" HorizontalAlignment="Left" Margin="47,79,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
         <Label Content="User Name" HorizontalAlignment="Left" Margin="47,119,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
@@ -19,9 +20,9 @@
         <Label Content="Address" HorizontalAlignment="Left" Margin="47,279,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
         <Label Content="Phone" HorizontalAlignment="Left" Margin="47,239,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="47,199,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Label Content="Gender" HorizontalAlignment="Left" Margin="740,297,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="534,320,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
         <Label Content="Blood Group" HorizontalAlignment="Left" Margin="47,320,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Label Content="Religion" HorizontalAlignment="Left" Margin="740,348,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Religion" HorizontalAlignment="Left" Margin="534,361,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
         <Label Content="Date Of Birth" HorizontalAlignment="Left" Margin="47,361,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
         <TextBox HorizontalAlignment="Left" Height="35" Margin="176,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
         <TextBox HorizontalAlignment="Left" Height="35" Margin="176,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
@@ -31,5 +32,23 @@
         <TextBox HorizontalAlignment="Left" Height="35" Margin="176,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
         <PasswordBox HorizontalAlignment="Left" Margin="176,199,0,0" VerticalAlignment="Top" Width="300" Height="35" Background="#FFEBEDEE" Foreground="#FF155799"/>
         <DatePicker HorizontalAlignment="Left" Margin="176,361,0,0" VerticalAlignment="Top" Width="300" Height="114"/>
+        <RadioButton Content="Male" HorizontalAlignment="Left" Margin="682,324,0,0" VerticalAlignment="Top" Background="#FFEBEDEE" Foreground="White" Width="115" Height="35" FontSize="18" FontFamily="Times New Roman" IsChecked="True"/>
+        <RadioButton Content="Female" HorizontalAlignment="Left" Margin="812,324,0,0" VerticalAlignment="Top" Background="#FFEBEDEE" Foreground="White" Width="115" Height="35" FontSize="18" FontFamily="Times New Roman"/>
+        <ComboBox HorizontalAlignment="Left" Margin="682,361,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="#FF155799">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FFEBEDEE" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ComboBoxItem Content="Muslim"/>
+            <ComboBoxItem Content="Hindu"/>
+            <ComboBoxItem Content="Christian"/>
+            <ComboBoxItem Content="Buddist"/>
+        </ComboBox>
+        <Label Content="Marital Status" HorizontalAlignment="Left" Margin="534,279,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
+        <CheckBox Content="Yes" HorizontalAlignment="Left" Margin="682,279,0,0" VerticalAlignment="Top" IsChecked="True" Width="115" Height="31" FontSize="18" FontFamily="Times New Roman" Foreground="White"/>
+        <CheckBox Content="No" HorizontalAlignment="Left" Margin="812,279,0,0" VerticalAlignment="Top" FontFamily="Times New Roman" FontSize="18" Foreground="White" Width="115" Height="35"/>
+        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="450,530,0,0" VerticalAlignment="Top" Width="114" Height="36" FontSize="20" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
     </Grid>
 </Window>
