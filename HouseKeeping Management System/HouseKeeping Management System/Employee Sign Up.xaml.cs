@@ -33,5 +33,12 @@ namespace HouseKeeping_Management_System
         {
             this.Close();
         }
+
+        private void btn_sign(object sender, RoutedEventArgs e)
+        {
+            string name;
+            name = txt_fullname.Text;
+            MessageBox.Show(name);
+        }
     }
 }
