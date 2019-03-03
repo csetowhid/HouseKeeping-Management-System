@@ -1,0 +1,12 @@
+﻿<Window x:Class="HouseKeeping_Management_System.Employer_Sign_In"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HouseKeeping_Management_System"
+        mc:Ignorable="d"
+        Title="Employer_Sign_In" Height="600" Width="1000">
+    <Grid>
+        
+    </Grid>
+</Window>
