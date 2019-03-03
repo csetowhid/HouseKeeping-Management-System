@@ -26,7 +26,7 @@
         <Label Content="Date Of Birth" HorizontalAlignment="Left" Margin="47,361,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
         <TextBox x:Name="txt_fullname" HorizontalAlignment="Left" Height="35" Margin="176,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
         <TextBox x:Name="txtusername" HorizontalAlignment="Left" Height="35" Margin="176,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
-        <TextBox x:Name="txt" HorizontalAlignment="Left" Height="35" Margin="176,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <TextBox x:Name="txtemail" HorizontalAlignment="Left" Height="35" Margin="176,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
         <TextBox x:Name="txtphone" HorizontalAlignment="Left" Height="35" Margin="176,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
         <TextBox x:Name="txtadd" HorizontalAlignment="Left" Height="35" Margin="176,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
         <TextBox x:Name="txtblood" HorizontalAlignment="Left" Height="35" Margin="176,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
@@ -34,7 +34,7 @@
         <DatePicker x:Name="dpdob" HorizontalAlignment="Left" Margin="176,361,0,0" VerticalAlignment="Top" Width="300" Height="114"/>
         <RadioButton x:Name="rdomale" Content="Male" HorizontalAlignment="Left" Margin="682,324,0,0" VerticalAlignment="Top" Background="#FFEBEDEE" Foreground="White" Width="115" Height="35" FontSize="18" FontFamily="Times New Roman" IsChecked="True"/>
         <RadioButton x:Name="rdofemale" Content="Female" HorizontalAlignment="Left" Margin="812,324,0,0" VerticalAlignment="Top" Background="#FFEBEDEE" Foreground="White" Width="115" Height="35" FontSize="18" FontFamily="Times New Roman"/>
-        <ComboBox x:Name="cmbreg" HorizontalAlignment="Left" Margin="682,361,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="#FF155799">
+        <ComboBox x:Name="cmd_reg" HorizontalAlignment="Left" Margin="682,361,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="#FF155799">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF0F0F0" Offset="0"/>
@@ -51,6 +51,9 @@
         <Button Content="Sign Up" HorizontalAlignment="Left" Margin="450,530,0,0" VerticalAlignment="Top" Width="114" Height="36" FontSize="20" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign"/>
         <Label Content="Gender" HorizontalAlignment="Left" Margin="534,320,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="752,99,0,0" VerticalAlignment="Top" Width="100"/>
-        <Image HorizontalAlignment="Left" Height="134" Margin="696,92,0,0" VerticalAlignment="Top" Width="163"/>
+        <Label Content="User Id" HorizontalAlignment="Left" Margin="534,119,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <TextBox x:Name="txtuserid" HorizontalAlignment="Left" Height="35" Margin="680,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <Label Content="Nid" HorizontalAlignment="Left" Margin="534,219,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
+        <TextBox x:Name="textnid" HorizontalAlignment="Left" Height="35" Margin="680,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
     </Grid>
 </Window>
