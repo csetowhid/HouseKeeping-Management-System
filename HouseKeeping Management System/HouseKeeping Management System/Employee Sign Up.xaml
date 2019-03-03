@@ -23,6 +23,33 @@
         <TextBox x:Name="txt" HorizontalAlignment="Left" Height="35" Margin="176,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="47,199,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
         <PasswordBox x:Name="pbpass" HorizontalAlignment="Left" Margin="176,199,0,0" VerticalAlignment="Top" Width="300" Height="35" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="47,239,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <TextBox x:Name="txtphone" HorizontalAlignment="Left" Height="35" Margin="176,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="47,279,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <TextBox x:Name="txtadd" HorizontalAlignment="Left" Height="35" Margin="176,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <Label Content="Blood Group" HorizontalAlignment="Left" Margin="47,320,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <TextBox x:Name="txtblood" HorizontalAlignment="Left" Height="35" Margin="176,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <Label Content="Date Of Birth" HorizontalAlignment="Left" Margin="519,79,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <DatePicker x:Name="dpdob" HorizontalAlignment="Left" Margin="684,79,0,0" VerticalAlignment="Top" Width="300" Height="114"/>
+        <Label Content="Marital Status" HorizontalAlignment="Left" Margin="519,239,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
+        <CheckBox x:Name="chkms" Content="Yes" HorizontalAlignment="Left" Margin="682,239,0,0" VerticalAlignment="Top" IsChecked="True" Width="115" Height="31" FontSize="18" FontFamily="Times New Roman" Foreground="White"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="519,279,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
+        <RadioButton x:Name="rdomale" Content="Male" HorizontalAlignment="Left" Margin="682,279,0,0" VerticalAlignment="Top" Background="#FFEBEDEE" Foreground="White" Width="115" Height="35" FontSize="18" FontFamily="Times New Roman" IsChecked="True"/>
+        <RadioButton x:Name="rdofemale" Content="Female" HorizontalAlignment="Left" Margin="812,279,0,0" VerticalAlignment="Top" Background="#FFEBEDEE" Foreground="White" Width="115" Height="35" FontSize="18" FontFamily="Times New Roman"/>
+        <Label Content="Religion" HorizontalAlignment="Left" Margin="519,320,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <ComboBox x:Name="cmbreg" HorizontalAlignment="Left" Margin="682,320,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="#FF155799">
+            <ComboBox.Background>
+                <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
+                    <GradientStop Color="#FFF0F0F0" Offset="0"/>
+                    <GradientStop Color="#FFEBEDEE" Offset="1"/>
+                </LinearGradientBrush>
+            </ComboBox.Background>
+            <ComboBoxItem Content="Muslim"/>
+            <ComboBoxItem Content="Hindu"/>
+            <ComboBoxItem Content="Christian"/>
+            <ComboBoxItem Content="Buddist"/>
+        </ComboBox>
+        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="357,472,0,0" VerticalAlignment="Top" Width="114" Height="36" FontSize="20" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign"/>
 
     </Grid>
 </Window>
