@@ -5,15 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HouseKeeping_Management_System"
         mc:Ignorable="d"
-        Title="Employee_Sign_Up" Height="700" Width="1300" Background="#FF5C99D6" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="Employee_Sign_Up" Height="600" Width="1100" Background="#FF5C99D6" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        <Grid HorizontalAlignment="Left" Height="67" VerticalAlignment="Top" Width="1300" RenderTransformOrigin="-0.004,-0.364" Background="#FF6991C7" MouseLeftButtonDown="Grid_MouseLeft">
-            <Label Content="Employee Sign Up" HorizontalAlignment="Left" Margin="515,2,0,0" VerticalAlignment="Top" Width="333" Height="76" Foreground="White" FontSize="48" FontFamily="Monotype Corsiva"/>
+        <Grid HorizontalAlignment="Left" Height="67" VerticalAlignment="Top" Width="1100" RenderTransformOrigin="-0.004,-0.364" Background="#FF6991C7" MouseLeftButtonDown="Grid_MouseLeft">
+            <Label Content="Employee Sign Up" HorizontalAlignment="Left" Margin="363,2,0,-11" VerticalAlignment="Top" Width="333" Height="76" Foreground="White" FontSize="48" FontFamily="Monotype Corsiva"/>
             <Button Content="X" HorizontalAlignment="Left" Margin="1279,-1,0,75" VerticalAlignment="Bottom" Width="20" Height="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="0.517,0.317"/>
             <Button Content="X" HorizontalAlignment="Left" Margin="1282,-2,-2,56" VerticalAlignment="Bottom" Width="20" Height="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="0.517,0.317"/>
-            <Image HorizontalAlignment="Left" Height="54" Margin="442,5,0,0" VerticalAlignment="Top" Width="52" Source="icons/logo.png"/>
-            <Image HorizontalAlignment="Left" Height="54" Margin="884,5,0,0" VerticalAlignment="Top" Width="52" Source="icons/logo2.png" RenderTransformOrigin="4.436,0.841" Stretch="UniformToFill"/>
+            <Image HorizontalAlignment="Left" Height="54" Margin="278,5,0,0" VerticalAlignment="Top" Width="52" Source="icons/logo.png"/>
+            <Image HorizontalAlignment="Left" Height="54" Margin="728,5,0,0" VerticalAlignment="Top" Width="52" Source="icons/logo2.png" RenderTransformOrigin="4.436,0.841" Stretch="UniformToFill"/>
+            <Button Content="X" HorizontalAlignment="Left" Margin="1072,1,-2,0" VerticalAlignment="Top" Width="30" Height="30" Background="#FFF50A0A" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White"/>
         </Grid>
+        <Label Content="Full Name" HorizontalAlignment="Left" Margin="47,79,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <TextBox x:Name="txt_fullname" HorizontalAlignment="Left" Height="35" Margin="176,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <Label Content="User Name" HorizontalAlignment="Left" Margin="47,119,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <TextBox x:Name="txtusername" HorizontalAlignment="Left" Height="35" Margin="176,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <Label Content="Email" HorizontalAlignment="Left" Margin="47,159,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <TextBox x:Name="txt" HorizontalAlignment="Left" Height="35" Margin="176,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <Label Content="Password" HorizontalAlignment="Left" Margin="47,199,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <PasswordBox x:Name="pbpass" HorizontalAlignment="Left" Margin="176,199,0,0" VerticalAlignment="Top" Width="300" Height="35" Background="#FFEBEDEE" Foreground="#FF155799"/>
 
     </Grid>
 </Window>
