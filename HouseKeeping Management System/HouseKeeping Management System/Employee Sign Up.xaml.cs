@@ -38,7 +38,6 @@ namespace HouseKeeping_Management_System
 
         private void btn_sign(object sender, RoutedEventArgs e)
         {
-<<<<<<< HEAD
 
             string fullname, username, userid, email, password, phn, add, bld, marry, gender, dob, nid;
 
@@ -96,11 +95,6 @@ namespace HouseKeeping_Management_System
             if (rows > 0)
                 MessageBox.Show("Account Created Successfully");
             sqlcon.Close();
-=======
-            string name;
-            name = txt_fullname.Text;
-            MessageBox.Show(name);
->>>>>>> e1d9d356195f2184e18723c15d3e7ad4f2ee3cd6
         }
     }
 }

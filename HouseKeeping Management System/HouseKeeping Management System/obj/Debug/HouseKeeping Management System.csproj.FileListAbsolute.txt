@@ -55,3 +55,9 @@ F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management 
 F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System.csproj.CoreCompileInputs.cache
 F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System.exe
 F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\HouseKeeping Management System.pdb
+F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Employer Sign In.g.cs
+F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Employer Sign In.baml
+F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Sign In.g.cs
+F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Employee Sign In.g.cs
+F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Sign In.baml
+F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Employee Sign In.baml

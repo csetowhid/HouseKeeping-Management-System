@@ -46,5 +46,12 @@ namespace HouseKeeping_Management_System
         {
             this.Close();
         }
+
+        private void btn_sign(object sender, RoutedEventArgs e)
+        {
+            Sign_In ai = new Sign_In();
+            ai.Show();
+            this.Close();
+        }
     }
 }

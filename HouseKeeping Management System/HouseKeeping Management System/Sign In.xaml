@@ -1,0 +1,19 @@
+﻿<Window x:Class="HouseKeeping_Management_System.Sign_In"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HouseKeeping_Management_System"
+        mc:Ignorable="d"
+        Title="Sign_In" Height="400" Width="500" WindowStyle="None" Background="#FF6991C7" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Content="Employer" HorizontalAlignment="Left" Margin="44,229,0,0" VerticalAlignment="Top" Width="149" FontFamily="Times New Roman" FontSize="24" Height="50" RenderTransformOrigin="1.235,0.68" Click="employer_signin" BorderBrush="#FF6991C7" Background="#00000000" Foreground="White" FontWeight="Bold"/>
+        <Button Content="Employee" HorizontalAlignment="Left" Margin="285,229,0,0" VerticalAlignment="Top" Width="149" FontFamily="Times New Roman" FontSize="24" Height="50" RenderTransformOrigin="1.235,0.68" Click="employee_signin" Background="#FF6991C7" BorderBrush="#FF6991C7" Foreground="White" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="72,109,0,0" VerticalAlignment="Top" Width="100" Source="icons/employer.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="311,109,0,0" VerticalAlignment="Top" Width="100" Source="icons/logo.png"/>
+        <Grid HorizontalAlignment="Left" Height="46" Margin="0,1,0,0" VerticalAlignment="Top" Width="500" Background="#FF5C99D6" MouseLeftButtonDown="grid">
+            <Label Content="Sign In" HorizontalAlignment="Left" Margin="190,-3,0,-2" VerticalAlignment="Top" Width="132" Height="51" Foreground="White" FontSize="36" FontFamily="Monotype Corsiva"/>
+            <Button Content="X" HorizontalAlignment="Left" Margin="480,0,0,0" VerticalAlignment="Top" Width="20" Height="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="0.517,0.317"/>
+        </Grid>
+    </Grid>
+</Window>

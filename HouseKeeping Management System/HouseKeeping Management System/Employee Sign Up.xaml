@@ -20,11 +20,8 @@
         <Label Content="User Name" HorizontalAlignment="Left" Margin="47,119,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
         <TextBox x:Name="txtusername" HorizontalAlignment="Left" Height="35" Margin="176,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
         <Label Content="Email" HorizontalAlignment="Left" Margin="47,159,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-<<<<<<< HEAD
         <TextBox x:Name="txtemail" HorizontalAlignment="Left" Height="35" Margin="176,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
-=======
         <TextBox x:Name="txt" HorizontalAlignment="Left" Height="35" Margin="176,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
->>>>>>> e1d9d356195f2184e18723c15d3e7ad4f2ee3cd6
         <Label Content="Password" HorizontalAlignment="Left" Margin="47,199,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
         <PasswordBox x:Name="pbpass" HorizontalAlignment="Left" Margin="176,199,0,0" VerticalAlignment="Top" Width="300" Height="35" Background="#FFEBEDEE" Foreground="#FF155799"/>
         <Label Content="Phone" HorizontalAlignment="Left" Margin="47,239,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
@@ -41,11 +38,12 @@
         <RadioButton x:Name="rdomale" Content="Male" HorizontalAlignment="Left" Margin="682,279,0,0" VerticalAlignment="Top" Background="#FFEBEDEE" Foreground="White" Width="115" Height="35" FontSize="18" FontFamily="Times New Roman" IsChecked="True"/>
         <RadioButton x:Name="rdofemale" Content="Female" HorizontalAlignment="Left" Margin="812,279,0,0" VerticalAlignment="Top" Background="#FFEBEDEE" Foreground="White" Width="115" Height="35" FontSize="18" FontFamily="Times New Roman"/>
         <Label Content="Religion" HorizontalAlignment="Left" Margin="519,320,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-<<<<<<< HEAD
-        <ComboBox x:Name="cmd_reg" HorizontalAlignment="Left" Margin="682,320,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="#FF155799">
-=======
-        <ComboBox x:Name="cmbreg" HorizontalAlignment="Left" Margin="682,320,0,0" VerticalAlignment="Top" Width="300" Height="35" Foreground="#FF155799">
->>>>>>> e1d9d356195f2184e18723c15d3e7ad4f2ee3cd6
+        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="357,472,0,0" VerticalAlignment="Top" Width="114" Height="36" FontSize="20" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign"/>
+        <Label Content="User Id" HorizontalAlignment="Left" Margin="50,370,0,0" VerticalAlignment="Top" Height="34" Width="114" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <TextBox x:Name="txtuserid" HorizontalAlignment="Left" Height="36" Margin="179,372,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <Label Content="Nid" HorizontalAlignment="Left" Margin="518,375,0,0" VerticalAlignment="Top" Height="35" Width="114" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
+        <TextBox x:Name="textnid" HorizontalAlignment="Left" Height="34" Margin="674,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <ComboBox x:Name="cmd_reg" HorizontalAlignment="Left" Margin="668,324,0,0" VerticalAlignment="Top" Width="300" Height="34" Foreground="#FF155799">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF0F0F0" Offset="0"/>
@@ -57,14 +55,5 @@
             <ComboBoxItem Content="Christian"/>
             <ComboBoxItem Content="Buddist"/>
         </ComboBox>
-        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="357,472,0,0" VerticalAlignment="Top" Width="114" Height="36" FontSize="20" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign"/>
-<<<<<<< HEAD
-        <Label Content="User Id" HorizontalAlignment="Left" Margin="50,370,0,0" VerticalAlignment="Top" Height="34" Width="114" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <TextBox x:Name="txtuserid" HorizontalAlignment="Left" Height="36" Margin="179,372,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
-        <Label Content="Nid" HorizontalAlignment="Left" Margin="518,375,0,0" VerticalAlignment="Top" Height="35" Width="114" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
-        <TextBox x:Name="textnid" HorizontalAlignment="Left" Height="34" Margin="674,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
-=======
->>>>>>> e1d9d356195f2184e18723c15d3e7ad4f2ee3cd6
-
     </Grid>
 </Window>
