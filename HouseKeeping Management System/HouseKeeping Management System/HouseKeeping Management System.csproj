@@ -61,6 +61,9 @@
     <Compile Include="Employee Sign Up.xaml.cs">
       <DependentUpon>Employee Sign Up.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Employer Dashboard.xaml.cs">
+      <DependentUpon>Employer Dashboard.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Employer Sign In.xaml.cs">
       <DependentUpon>Employer Sign In.xaml</DependentUpon>
     </Compile>
@@ -78,6 +81,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Employee Sign Up.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Employer Dashboard.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
