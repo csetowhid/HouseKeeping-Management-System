@@ -74,7 +74,7 @@ namespace HouseKeeping_Management_System
             string connectionstring = @"Data Source=DESKTOP-1A5KDLM;Initial Catalog=fall16;Integrated Security=True";
             SqlConnection sqlcon = new SqlConnection(connectionstring);
 
-            SqlCommand cmd = new SqlCommand("insert into hms(fullname,username,userid,email,password,phn,address,bld,nid,ms,gender,dob,rel) values(@a,@b,@c,@d,@e,@f,@g,@g,@i,@j,@k,@l,@m)", sqlcon);
+            SqlCommand cmd = new SqlCommand("insert into Employer(fullname,username,userid,email,password,phn,address,bld,nid,ms,gender,dob,rel) values(@a,@b,@c,@d,@e,@f,@g,@g,@i,@j,@k,@l,@m)", sqlcon);
 
             cmd.Parameters.Add("@a", SqlDbType.VarChar).Value = fullname;
             cmd.Parameters.Add("@b", SqlDbType.VarChar).Value = username;
