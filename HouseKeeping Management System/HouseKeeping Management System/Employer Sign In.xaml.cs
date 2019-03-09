@@ -38,7 +38,7 @@ namespace HouseKeeping_Management_System
             {
                 if (sqlcon.State == ConnectionState.Closed)
                     sqlcon.Open();
-                string commandstring = "select COUNT(1) from hms WHERE username=@username AND password=@password";
+                string commandstring = "select COUNT(1) from Employer WHERE username=@username AND password=@password";
                 SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
                 sqlcmd.CommandType = CommandType.Text;
                 sqlcmd.Parameters.AddWithValue("@username",txtusername.Text);
