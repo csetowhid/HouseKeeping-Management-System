@@ -46,7 +46,7 @@ namespace HouseKeeping_Management_System
                 int count = Convert.ToInt32(sqlcmd.ExecuteScalar());
                 if (count == 1)
                 {
-                    Employer_Dashboard ad = new Employer_Dashboard();
+                    Employee_Dashboard ad = new Employee_Dashboard();
                     ad.Show();
                     this.Close();
                 }

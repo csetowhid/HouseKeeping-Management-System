@@ -55,6 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Employee Dashboard.xaml.cs">
+      <DependentUpon>Employee Dashboard.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Employee Sign In.xaml.cs">
       <DependentUpon>Employee Sign In.xaml</DependentUpon>
     </Compile>
@@ -76,6 +79,10 @@
     <Compile Include="Sign Up.xaml.cs">
       <DependentUpon>Sign Up.xaml</DependentUpon>
     </Compile>
+    <Page Include="Employee Dashboard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Employee Sign In.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
