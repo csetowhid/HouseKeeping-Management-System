@@ -41,7 +41,7 @@ namespace HouseKeeping_Management_System
             string connectionstring = @"Data Source=DESKTOP-1A5KDLM;Initial Catalog=fall16;Integrated Security=True";
             SqlConnection sqlcon = new SqlConnection(connectionstring);
             sqlcon.Open();
-            string commandstring = "select * from dbo.hms where address='"+ txtadd.Text+"'";
+            string commandstring = "select * from dbo.Employer where address='" + txtadd.Text+"'";
             SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
             SqlDataReader read = sqlcmd.ExecuteReader();
 
