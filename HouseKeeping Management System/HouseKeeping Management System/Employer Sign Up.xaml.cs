@@ -21,6 +21,7 @@ namespace HouseKeeping_Management_System
     /// </summary>
     public partial class Employer_Sign_Up : Window
     {
+       
         public Employer_Sign_Up()
         {
             InitializeComponent();
@@ -38,8 +39,8 @@ namespace HouseKeeping_Management_System
 
         private void btn_sign(object sender, RoutedEventArgs e)
         {
-            string fullname,username,userid,email,password, phn,add,bld,marry, gender, dob,nid;
-            
+            string fullname, username, userid, email, password, phn, add, bld, marry, gender, dob, nid;
+
             fullname = txt_fullname.Text;
             username = txtusername.Text;
             userid = txtuserid.Text;
@@ -49,7 +50,7 @@ namespace HouseKeeping_Management_System
             add = txtadd.Text;
             bld = txtblood.Text;
             nid = textnid.Text;
-            
+
             if (chkms.IsChecked.Value == true)
             {
                 marry = "Yes";
@@ -66,11 +67,10 @@ namespace HouseKeeping_Management_System
             {
                 gender = "Female";
             }
-           var a = (ComboBoxItem)cmd_reg.SelectedItem;
+            var a = (ComboBoxItem)cmd_reg.SelectedItem;
             string rel = (String)a.Content;
 
             dob = dpdob.SelectedDate.Value.ToShortDateString();
-            // MessageBox.Show(fullname+ "\n" + rel + "\n" + dob);
             string connectionstring = @"Data Source=DESKTOP-1A5KDLM;Initial Catalog=fall16;Integrated Security=True";
             SqlConnection sqlcon = new SqlConnection(connectionstring);
 
