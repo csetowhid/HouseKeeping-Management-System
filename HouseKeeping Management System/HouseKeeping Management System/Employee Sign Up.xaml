@@ -53,5 +53,7 @@
             <ComboBoxItem Content="Buddist"/>
         </ComboBox>
         <Button Content="Sign Up" HorizontalAlignment="Left" Margin="323,396,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign"/>
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="599,396,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_reset"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="323,476,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Home"/>
     </Grid>
 </Window>
