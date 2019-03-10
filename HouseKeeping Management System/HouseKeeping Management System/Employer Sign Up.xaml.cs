@@ -94,5 +94,19 @@ namespace HouseKeeping_Management_System
                 MessageBox.Show("Account Created Successfully");
             sqlcon.Close();
         }
+
+        private void btn_reset(object sender, RoutedEventArgs e)
+        {
+            txt_fullname.Clear();
+            txtusername.Clear();
+            txtemail.Clear();
+            pbpass.Clear();
+            txtphone.Clear();
+            txtadd.Clear();
+            txtblood.Clear();
+            textnid.Clear();
+            cmd_reg.Text = "";
+            dpdob.Text = "";
+        }
     }
 }
