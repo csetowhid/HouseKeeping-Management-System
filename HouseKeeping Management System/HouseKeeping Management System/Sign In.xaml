@@ -15,5 +15,6 @@
             <Label Content="Sign In" HorizontalAlignment="Left" Margin="190,-3,0,-2" VerticalAlignment="Top" Width="132" Height="51" Foreground="White" FontSize="36" FontFamily="Monotype Corsiva"/>
             <Button Content="X" HorizontalAlignment="Left" Margin="476,-1,-1,0" VerticalAlignment="Top" Width="25" Height="23" Background="#FFF50A0A" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White"/>
         </Grid>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="50,295,0,0" VerticalAlignment="Top" Width="400" FontFamily="Times New Roman" FontSize="24" Height="50" RenderTransformOrigin="1.235,0.68" Click="Home" BorderBrush="#FF6991C7" Background="#FF6991C7" Foreground="White" FontWeight="Bold" Cursor="Hand"/>
     </Grid>
 </Window>
