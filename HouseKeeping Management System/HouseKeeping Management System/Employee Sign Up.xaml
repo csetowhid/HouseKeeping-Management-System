@@ -30,20 +30,17 @@
         <TextBox x:Name="txtadd" HorizontalAlignment="Left" Height="35" Margin="176,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
         <Label Content="Blood Group" HorizontalAlignment="Left" Margin="47,320,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
         <TextBox x:Name="txtblood" HorizontalAlignment="Left" Height="35" Margin="176,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
-        <Label Content="Date Of Birth" HorizontalAlignment="Left" Margin="519,79,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <DatePicker x:Name="dpdob" HorizontalAlignment="Left" Margin="684,79,0,0" VerticalAlignment="Top" Width="300" Height="114"/>
-        <Label Content="Marital Status" HorizontalAlignment="Left" Margin="519,239,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
-        <CheckBox x:Name="chkms" Content="Yes" HorizontalAlignment="Left" Margin="682,239,0,0" VerticalAlignment="Top" IsChecked="True" Width="115" Height="31" FontSize="18" FontFamily="Times New Roman" Foreground="White"/>
-        <Label Content="Gender" HorizontalAlignment="Left" Margin="519,279,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
-        <RadioButton x:Name="rdomale" Content="Male" HorizontalAlignment="Left" Margin="682,279,0,0" VerticalAlignment="Top" Background="#FFEBEDEE" Foreground="White" Width="115" Height="35" FontSize="18" FontFamily="Times New Roman" IsChecked="True"/>
-        <RadioButton x:Name="rdofemale" Content="Female" HorizontalAlignment="Left" Margin="812,279,0,0" VerticalAlignment="Top" Background="#FFEBEDEE" Foreground="White" Width="115" Height="35" FontSize="18" FontFamily="Times New Roman"/>
-        <Label Content="Religion" HorizontalAlignment="Left" Margin="519,320,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="357,472,0,0" VerticalAlignment="Top" Width="114" Height="36" FontSize="20" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign"/>
-        <Label Content="User Id" HorizontalAlignment="Left" Margin="50,370,0,0" VerticalAlignment="Top" Height="34" Width="114" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <TextBox x:Name="txtuserid" HorizontalAlignment="Left" Height="36" Margin="179,372,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
-        <Label Content="Nid" HorizontalAlignment="Left" Margin="518,375,0,0" VerticalAlignment="Top" Height="35" Width="114" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
-        <TextBox x:Name="textnid" HorizontalAlignment="Left" Height="34" Margin="674,374,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
-        <ComboBox x:Name="cmd_reg" HorizontalAlignment="Left" Margin="668,324,0,0" VerticalAlignment="Top" Width="300" Height="34" Foreground="#FF155799">
+        <Label Content="Date Of Birth" HorizontalAlignment="Left" Margin="519,239,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <DatePicker x:Name="dpdob" HorizontalAlignment="Left" Margin="668,239,0,0" VerticalAlignment="Top" Width="300" Height="114"/>
+        <Label Content="Marital Status" HorizontalAlignment="Left" Margin="519,119,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
+        <CheckBox x:Name="chkms" Content="Yes" HorizontalAlignment="Left" Margin="682,119,0,0" VerticalAlignment="Top" IsChecked="True" Width="115" Height="31" FontSize="18" FontFamily="Times New Roman" Foreground="White"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="519,159,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
+        <RadioButton x:Name="rdomale" Content="Male" HorizontalAlignment="Left" Margin="682,159,0,0" VerticalAlignment="Top" Background="#FFEBEDEE" Foreground="White" Width="115" Height="35" FontSize="18" FontFamily="Times New Roman" IsChecked="True"/>
+        <RadioButton x:Name="rdofemale" Content="Female" HorizontalAlignment="Left" Margin="812,159,0,0" VerticalAlignment="Top" Background="#FFEBEDEE" Foreground="White" Width="115" Height="35" FontSize="18" FontFamily="Times New Roman"/>
+        <Label Content="Religion" HorizontalAlignment="Left" Margin="519,199,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Label Content="Nid" HorizontalAlignment="Left" Margin="518,79,0,0" VerticalAlignment="Top" Height="35" Width="114" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
+        <TextBox x:Name="textnid" HorizontalAlignment="Left" Height="34" Margin="674,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
+        <ComboBox x:Name="cmd_reg" HorizontalAlignment="Left" Margin="668,199,0,0" VerticalAlignment="Top" Width="300" Height="34" Foreground="#FF155799">
             <ComboBox.Background>
                 <LinearGradientBrush EndPoint="0,1" StartPoint="0,0">
                     <GradientStop Color="#FFF0F0F0" Offset="0"/>
@@ -55,5 +52,6 @@
             <ComboBoxItem Content="Christian"/>
             <ComboBoxItem Content="Buddist"/>
         </ComboBox>
+        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="323,396,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign"/>
     </Grid>
 </Window>
