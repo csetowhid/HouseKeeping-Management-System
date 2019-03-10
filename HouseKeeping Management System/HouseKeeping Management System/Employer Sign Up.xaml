@@ -51,8 +51,6 @@
         <Button Content="Sign Up" HorizontalAlignment="Left" Margin="450,530,0,0" VerticalAlignment="Top" Width="114" Height="36" FontSize="20" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign"/>
         <Label Content="Gender" HorizontalAlignment="Left" Margin="534,320,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="752,99,0,0" VerticalAlignment="Top" Width="100"/>
-        <Label Content="User Id" HorizontalAlignment="Left" Margin="534,119,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <TextBox x:Name="txtuserid" HorizontalAlignment="Left" Height="35" Margin="680,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
         <Label Content="Nid" HorizontalAlignment="Left" Margin="534,219,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
         <TextBox x:Name="textnid" HorizontalAlignment="Left" Height="35" Margin="680,219,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
     </Grid>
