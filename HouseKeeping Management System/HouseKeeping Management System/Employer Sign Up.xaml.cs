@@ -108,5 +108,12 @@ namespace HouseKeeping_Management_System
             cmd_reg.Text = "";
             dpdob.Text = "";
         }
+
+        private void Home(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            this.Close();
+        }
     }
 }
