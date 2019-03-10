@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HouseKeeping_Management_System"
         mc:Ignorable="d"
-        Title="MainWindow" Height="700" Width="1300" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
-    <Grid>
-        <Grid HorizontalAlignment="Left" Height="700" VerticalAlignment="Top" Width="250" Background="#FF5C99D6"/>
-        <Grid HorizontalAlignment="Left" Height="70" Margin="250,0,0,0" VerticalAlignment="Top" Width="798" Background="#FF5C99D6" MouseLeftButtonDown="grid_down">
-            <TextBlock HorizontalAlignment="Left" Margin="32,7,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="56" Width="728" FontSize="48" FontFamily="Times New Roman" FontStyle="Italic" FontWeight="Bold" Foreground="#FFF7F7F7"><Run Text="HouseKeeping Management System"/><InlineUIContainer>
+        Title="MainWindow" Height="600" Width="1200" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" WindowStyle="None">
+    <Grid Margin="0,0,-4,0">
+        <Grid HorizontalAlignment="Left" Height="600" VerticalAlignment="Top" Width="250" Background="#FF5C99D6"/>
+        <Grid HorizontalAlignment="Left" Height="70" Margin="213,-2,0,0" VerticalAlignment="Top" Width="812" Background="#FF5C99D6" MouseLeftButtonDown="grid_down">
+            <TextBlock HorizontalAlignment="Left" Margin="36,8,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="56" Width="728" FontSize="48" FontFamily="Times New Roman" FontStyle="Italic" FontWeight="Bold" Foreground="#FFF7F7F7"><Run Text="HouseKeeping Management System"/><InlineUIContainer>
                     <Grid Height="100" Width="100"/>
                 </InlineUIContainer></TextBlock>
         </Grid>
-        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="-2,328,0,0" VerticalAlignment="Top" Width="250" Height="64" FontSize="36" FontFamily="Monotype Corsiva" Background="#FF5C99D6" Foreground="#FFF0E7E7"  BorderBrush="#FF5C99D6" Click="btn_signup"/>
-        <Image HorizontalAlignment="Left" Height="64" Margin="-1,326,0,0" VerticalAlignment="Top" Width="100" Source="icons/sign up.png" OpacityMask="#FFBD7A7A" RenderTransformOrigin="0.205,-0.156"/>
+        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="-2,352,0,0" VerticalAlignment="Top" Width="250" Height="64" FontSize="36" FontFamily="Monotype Corsiva" Background="#FF5C99D6" Foreground="#FFF0E7E7"  BorderBrush="#FF5C99D6" Click="btn_signup"/>
+        <Image HorizontalAlignment="Left" Height="64" Margin="-1,350,0,0" VerticalAlignment="Top" Width="100" Source="icons/sign up.png" OpacityMask="#FFBD7A7A" RenderTransformOrigin="0.205,-0.156"/>
         <Grid Margin="-3,390,1053,246">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="170*"/>
@@ -22,15 +22,27 @@
             </Grid.ColumnDefinitions>
         </Grid>
         <Grid Margin="0,390,1200,246"/>
-        <Button Content="Home" HorizontalAlignment="Left" Margin="0,258,0,0" VerticalAlignment="Top" Width="250" Height="64" FontSize="36" FontFamily="Monotype Corsiva" Background="#FF5C99D6" Foreground="#FFF0E7E7"  BorderBrush="#FF5C99D6"/>
-        <Image HorizontalAlignment="Left" Height="164" Margin="28,34,0,0" VerticalAlignment="Top" Width="174" Source="icons/logo.png" RenderTransformOrigin="4.436,0.841" Stretch="UniformToFill"/>
-        <Grid HorizontalAlignment="Left" Height="630" Margin="250,70,0,0" VerticalAlignment="Top" Width="798" Background="#FF31577E">
-            <Grid HorizontalAlignment="Left" Height="100" Margin="538,146,0,0" VerticalAlignment="Top" Width="100"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="0,278,0,0" VerticalAlignment="Top" Width="250" Height="64" FontSize="36" FontFamily="Monotype Corsiva" Background="#FF5C99D6" Foreground="#FFF0E7E7"  BorderBrush="#FF5C99D6"/>
+        <Image HorizontalAlignment="Left" Height="164" Margin="32,76,0,0" VerticalAlignment="Top" Width="174" Source="icons/logo.png" RenderTransformOrigin="4.436,0.841" Stretch="UniformToFill"/>
+        <Grid HorizontalAlignment="Left" Height="532" Margin="250,68,0,0" VerticalAlignment="Top" Width="723" Background="#FF31577E">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="327*"/>
+                <RowDefinition Height="206*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="305*"/>
+                <ColumnDefinition Width="57*"/>
+            </Grid.ColumnDefinitions>
+            <Grid HorizontalAlignment="Left" Height="100" Margin="538,146,0,0" VerticalAlignment="Top" Width="100" Grid.ColumnSpan="2"/>
             <Grid HorizontalAlignment="Left" Height="100" Margin="400,94,0,0" VerticalAlignment="Top" Width="100"/>
         </Grid>
-        <Grid Background="#FF5C99D6" Margin="1048,-1,-2,0">
-            <TextBlock Text="HMS" Foreground="White" FontSize="28" FontFamily="Monotype Corsiva" Margin="10,239,10,0" VerticalAlignment="Top" Height="34"/>
-            <StackPanel Margin="0 150">
+        <Grid Background="#FF5C99D6" Margin="968,0,1,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="133*"/>
+                <RowDefinition Height="465*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="HMS" Foreground="White" FontSize="28" FontFamily="Monotype Corsiva" Margin="30,162,-10,0" VerticalAlignment="Top" Height="34" Grid.Row="1"/>
+            <StackPanel Margin="0,17,0,150" Grid.Row="1">
                 <Grid Height="60" Margin="20 50 20 0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
@@ -40,23 +52,23 @@
                         <RowDefinition Height="30"/>
                         <RowDefinition Height="30"/>
                     </Grid.RowDefinitions>
-                    <TextBlock Text="FOLLOWERS" VerticalAlignment="Bottom" Foreground="#FFFBFBFB" Margin="12,0,106,-90" Grid.ColumnSpan="2" Grid.Row="1"/>
-                    <TextBlock Text="1.5K" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="24,134,104,-120" Grid.ColumnSpan="2"/>
+                    <TextBlock Text="FOLLOWERS" VerticalAlignment="Bottom" Foreground="#FFFBFBFB" Margin="12,0,106,-147" Grid.ColumnSpan="2" Grid.Row="1" Height="19"/>
+                    <TextBlock Text="1.5K" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="24,188,104,-174" Grid.ColumnSpan="2"/>
 
-                    <TextBlock Text="FOLLOWING" VerticalAlignment="Bottom" Foreground="#FFFBFBFB" Margin="11,0,0,-108" Grid.Column="1" Height="34" Grid.Row="1"/>
-                    <TextBlock Text="2.3K" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="33,132,-14,-118" Grid.Column="1"/>
+                    <TextBlock Text="FOLLOWING" VerticalAlignment="Bottom" Foreground="#FFFBFBFB" Margin="11,0,0,-154" Grid.Column="1" Height="25" Grid.Row="1"/>
+                    <TextBlock Text="2.3K" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="33,188,-14,-174" Grid.Column="1"/>
                 </Grid>
             </StackPanel>
-            <Button Content="X" HorizontalAlignment="Left" Margin="226,0,0,0" VerticalAlignment="Top" Width="30" Height="30" Background="#FFF50A0A" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White"/>
-            <TextBlock HorizontalAlignment="Left" Margin="30,419,0,0" TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat ligula et ornare rutrum. Suspendisse vel nibh massa. Sed maximus porta augue eget viverra. Sed ullamcorper interdum ligula. Aenean vitae." VerticalAlignment="Top" Height="241" Width="186" Foreground="#FFF1E7E7"/>
+            <Button Content="X" HorizontalAlignment="Left" Margin="206,-2,-1,0" VerticalAlignment="Top" Width="30" Height="30" Background="#FFF50A0A" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="-0.017,0.6"/>
+            <TextBlock HorizontalAlignment="Left" Margin="30,322,0,0" TextWrapping="Wrap" Text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat ligula et ornare rutrum. Suspendisse vel nibh massa. Sed maximus porta augue eget viverra. Sed ullamcorper interdum ligula. Aenean vitae." VerticalAlignment="Top" Height="138" Width="186" Foreground="#FFF1E7E7" Grid.Row="1"/>
         </Grid>
-        <Button Content="Sign In" HorizontalAlignment="Left" Margin="-2,406,0,0" VerticalAlignment="Top" Width="250" Height="64" FontSize="36" FontFamily="Monotype Corsiva" Background="#FF5C99D6" Foreground="#FFF0E7E7" BorderBrush="#FF5C99D6" Click="btn_sign"/>
-        <Image HorizontalAlignment="Left" Height="64" Margin="-8,404,0,0" VerticalAlignment="Top" Width="100" Source="icons/sign in.png" OpacityMask="#FFBD7A7A" RenderTransformOrigin="0.205,-0.156"/>
-        <Image HorizontalAlignment="Left" Height="68" Margin="-1,254,0,0" VerticalAlignment="Top" Width="68" Source="icons/hm.png" RenderTransformOrigin="4.436,0.841" Stretch="UniformToFill"/>
-        <Button Content="Help" HorizontalAlignment="Left" Margin="0,482,0,0" VerticalAlignment="Top" Width="250" Height="64" FontSize="36" FontFamily="Monotype Corsiva" Background="#FF5C99D6" Foreground="#FFF0E7E7" BorderBrush="#FF5C99D6" RenderTransformOrigin="0.64,0.617"/>
-        <Image HorizontalAlignment="Left" Height="64" Margin="-1,483,0,0" VerticalAlignment="Top" Width="100" Source="icons/help.png" OpacityMask="#FFBD7A7A" RenderTransformOrigin="0.205,-0.156"/>
-        <Image HorizontalAlignment="Left" Height="104" Margin="1188,211,0,0" VerticalAlignment="Top" Width="108" Source="icons/fb.png" RenderTransformOrigin="4.436,0.841" Stretch="UniformToFill"/>
-        <Image HorizontalAlignment="Left" Height="163" Margin="1092,34,0,0" VerticalAlignment="Top" Width="174" Source="icons/logo2.png" RenderTransformOrigin="4.436,0.841" Stretch="UniformToFill"/>
+        <Button Content="Sign In" HorizontalAlignment="Left" Margin="-2,428,0,0" VerticalAlignment="Top" Width="250" Height="64" FontSize="36" FontFamily="Monotype Corsiva" Background="#FF5C99D6" Foreground="#FFF0E7E7" BorderBrush="#FF5C99D6" Click="btn_sign"/>
+        <Image HorizontalAlignment="Left" Height="64" Margin="-8,426,0,0" VerticalAlignment="Top" Width="100" Source="icons/sign in.png" OpacityMask="#FFBD7A7A" RenderTransformOrigin="0.205,-0.156"/>
+        <Image HorizontalAlignment="Left" Height="68" Margin="-1,274,0,0" VerticalAlignment="Top" Width="68" Source="icons/hm.png" RenderTransformOrigin="4.436,0.841" Stretch="UniformToFill"/>
+        <Button Content="Help" HorizontalAlignment="Left" Margin="0,506,0,0" VerticalAlignment="Top" Width="250" Height="64" FontSize="36" FontFamily="Monotype Corsiva" Background="#FF5C99D6" Foreground="#FFF0E7E7" BorderBrush="#FF5C99D6" RenderTransformOrigin="0.64,0.617"/>
+        <Image HorizontalAlignment="Left" Height="64" Margin="-1,507,0,0" VerticalAlignment="Top" Width="100" Source="icons/help.png" OpacityMask="#FFBD7A7A" RenderTransformOrigin="0.205,-0.156"/>
+        <Image HorizontalAlignment="Left" Height="104" Margin="1064,250,0,0" VerticalAlignment="Top" Width="108" Source="icons/fb.png" RenderTransformOrigin="4.436,0.841" Stretch="UniformToFill"/>
+        <Image HorizontalAlignment="Left" Height="163" Margin="994,72,0,0" VerticalAlignment="Top" Width="174" Source="icons/logo2.png" RenderTransformOrigin="4.436,0.841" Stretch="UniformToFill"/>
 
     </Grid>
 </Window>
