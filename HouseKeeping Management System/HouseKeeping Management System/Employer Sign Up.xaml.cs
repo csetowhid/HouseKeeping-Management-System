@@ -39,11 +39,10 @@ namespace HouseKeeping_Management_System
 
         private void btn_sign(object sender, RoutedEventArgs e)
         {
-            string fullname, username, userid, email, password, phn, add, bld, marry, gender, dob, nid;
+            string fullname, username, email, password, phn, add, bld, marry, gender, dob, nid;
 
             fullname = txt_fullname.Text;
             username = txtusername.Text;
-            userid = txtuserid.Text;
             email = txtemail.Text;
             password = pbpass.Password;
             phn = txtphone.Text;
@@ -74,21 +73,20 @@ namespace HouseKeeping_Management_System
             string connectionstring = @"Data Source=DESKTOP-1A5KDLM;Initial Catalog=fall16;Integrated Security=True";
             SqlConnection sqlcon = new SqlConnection(connectionstring);
 
-            SqlCommand cmd = new SqlCommand("insert into Employer(fullname,username,userid,email,password,phn,address,bld,nid,ms,gender,dob,rel) values(@a,@b,@c,@d,@e,@f,@g,@g,@i,@j,@k,@l,@m)", sqlcon);
+            SqlCommand cmd = new SqlCommand("insert into Employer(fullname,username,email,password,phn,address,bld,nid,ms,gender,dob,rel) values(@a,@b,@c,@d,@e,@f,@g,@h,@i,@j,@k,@l)", sqlcon);
 
             cmd.Parameters.Add("@a", SqlDbType.VarChar).Value = fullname;
             cmd.Parameters.Add("@b", SqlDbType.VarChar).Value = username;
-            cmd.Parameters.Add("@c", SqlDbType.VarChar).Value = userid;
-            cmd.Parameters.Add("@d", SqlDbType.VarChar).Value = email;
-            cmd.Parameters.Add("@e", SqlDbType.VarChar).Value = password;
-            cmd.Parameters.Add("@f", SqlDbType.VarChar).Value = phn;
-            cmd.Parameters.Add("@g", SqlDbType.VarChar).Value = add;
-            cmd.Parameters.Add("@h", SqlDbType.VarChar).Value = bld;
-            cmd.Parameters.Add("@i", SqlDbType.VarChar).Value = nid;
-            cmd.Parameters.Add("@j", SqlDbType.VarChar).Value = marry;
-            cmd.Parameters.Add("@k", SqlDbType.VarChar).Value = gender;
-            cmd.Parameters.Add("@l", SqlDbType.Date).Value = dob;
-            cmd.Parameters.Add("@m", SqlDbType.VarChar).Value = rel;
+            cmd.Parameters.Add("@c", SqlDbType.VarChar).Value = email;
+            cmd.Parameters.Add("@d", SqlDbType.VarChar).Value = password;
+            cmd.Parameters.Add("@e", SqlDbType.VarChar).Value = phn;
+            cmd.Parameters.Add("@f", SqlDbType.VarChar).Value = add;
+            cmd.Parameters.Add("@g", SqlDbType.VarChar).Value = bld;
+            cmd.Parameters.Add("@h", SqlDbType.VarChar).Value = nid;
+            cmd.Parameters.Add("@i", SqlDbType.VarChar).Value = marry;
+            cmd.Parameters.Add("@j", SqlDbType.VarChar).Value = gender;
+            cmd.Parameters.Add("@k", SqlDbType.Date).Value = dob;
+            cmd.Parameters.Add("@l", SqlDbType.VarChar).Value = rel;
 
             sqlcon.Open();
             int rows = cmd.ExecuteNonQuery();
