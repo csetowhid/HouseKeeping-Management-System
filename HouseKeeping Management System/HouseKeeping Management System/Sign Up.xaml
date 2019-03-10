@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HouseKeeping_Management_System"
         mc:Ignorable="d"
-        Title="Sign_Up" Height="400" Width="500" ResizeMode="NoResize" Background="#FF6991C7" WindowStyle="None" WindowStartupLocation="CenterScreen">
+        Title="Sign_Up" Height="400" Width="500" ResizeMode="NoResize" Background="#e2ebf0" WindowStyle="None" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Button Content="Employer" HorizontalAlignment="Left" Margin="44,229,0,0" VerticalAlignment="Top" Width="149" FontFamily="Times New Roman" FontSize="24" Height="50" RenderTransformOrigin="1.235,0.68" Click="employer_signup" BorderBrush="#FF6991C7" Background="#00000000" Foreground="White" FontWeight="Bold"/>
-        <Button Content="Employee" HorizontalAlignment="Left" Margin="285,229,0,0" VerticalAlignment="Top" Width="149" FontFamily="Times New Roman" FontSize="24" Height="50" RenderTransformOrigin="1.235,0.68" Click="employee_signup" Background="#FF6991C7" BorderBrush="#FF6991C7" Foreground="White" FontWeight="Bold"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="72,109,0,0" VerticalAlignment="Top" Width="100" Source="icons/employer.png"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="311,109,0,0" VerticalAlignment="Top" Width="100" Source="icons/logo.png"/>
+        <Button Content="Employer" HorizontalAlignment="Left" Margin="58,229,0,0" VerticalAlignment="Top" Width="149" FontFamily="Times New Roman" FontSize="24" Height="50" RenderTransformOrigin="1.235,0.68" Click="employer_signup" BorderBrush="#FF6991C7" Background="#FF6991C7" Foreground="White" FontWeight="Bold"/>
+        <Button Content="Employee" HorizontalAlignment="Left" Margin="295,229,0,0" VerticalAlignment="Top" Width="149" FontFamily="Times New Roman" FontSize="24" Height="50" RenderTransformOrigin="1.235,0.68" Click="employee_signup" Background="#FF6991C7" BorderBrush="#FF6991C7" Foreground="White" FontWeight="Bold"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="84,109,0,0" VerticalAlignment="Top" Width="100" Source="icons/employer.png"/>
+        <Image HorizontalAlignment="Left" Height="100" Margin="325,109,0,0" VerticalAlignment="Top" Width="100" Source="icons/logo.png"/>
         <Grid HorizontalAlignment="Left" Height="46" Margin="0,1,0,0" VerticalAlignment="Top" Width="500" Background="#FF5C99D6" MouseLeftButtonDown="grid">
             <Label Content="Sign Up" HorizontalAlignment="Left" Margin="190,-3,0,-2" VerticalAlignment="Top" Width="132" Height="51" Foreground="White" FontSize="36" FontFamily="Monotype Corsiva"/>
             <Button Content="X" HorizontalAlignment="Left" Margin="480,0,0,0" VerticalAlignment="Top" Width="20" Height="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="0.517,0.317"/>
