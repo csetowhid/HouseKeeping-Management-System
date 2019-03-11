@@ -52,9 +52,10 @@
             <ComboBoxItem Content="Christian"/>
             <ComboBoxItem Content="Buddist"/>
         </ComboBox>
-        <Button Content="Sign In" HorizontalAlignment="Left" Margin="309,508,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Sign"/>
-        <Button Content="Reset" HorizontalAlignment="Left" Margin="585,506,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_reset"/>
-        <Button Content="Home" HorizontalAlignment="Left" Margin="309,578,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Home"/>
-        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="309,436,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign"/>
+        <Button Content="Sign In" HorizontalAlignment="Left" Margin="309,534,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Sign"/>
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="585,534,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_reset"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="309,610,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Home"/>
+        <Button x:Name="button" Content="Sign Up" HorizontalAlignment="Left" Margin="309,394,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign" Visibility="Hidden"/>
+        <Button x:Name="btn_sold" Content="Check User Name" HorizontalAlignment="Left" Margin="306,464,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" Click="sold_click" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
     </Grid>
 </Window>

@@ -47,13 +47,14 @@
         </ComboBox>
         <Label Content="Marital Status" HorizontalAlignment="Left" Margin="534,119,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
         <CheckBox x:Name="chkms" Content="Yes" HorizontalAlignment="Left" Margin="682,119,0,0" VerticalAlignment="Top" IsChecked="True" Width="115" Height="31" FontSize="18" FontFamily="Times New Roman" Foreground="White"/>
-        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="309,412,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign"/>
+        <Button x:Name="button" Content="Sign Up" HorizontalAlignment="Left" Margin="309,464,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign" Visibility="Hidden"/>
         <Label Content="Gender" HorizontalAlignment="Left" Margin="534,159,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="752,99,0,0" VerticalAlignment="Top" Width="100"/>
         <Label Content="Nid" HorizontalAlignment="Left" Margin="534,79,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.052,-1.743"/>
         <TextBox x:Name="textnid" HorizontalAlignment="Left" Height="35" Margin="680,79,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
-        <Button Content="Reset" HorizontalAlignment="Left" Margin="583,490,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_reset"/>
-        <Button Content="Home" HorizontalAlignment="Left" Margin="309,566,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Home"/>
-        <Button Content="Sign In" HorizontalAlignment="Left" Margin="309,490,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="sign"/>
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="583,534,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_reset"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="309,610,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Home"/>
+        <Button Content="Sign In" HorizontalAlignment="Left" Margin="309,534,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="sign"/>
+        <Button x:Name="btn_sold" Content="Check User Name" HorizontalAlignment="Left" Margin="306,464,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" Click="sold_click" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
     </Grid>
 </Window>
