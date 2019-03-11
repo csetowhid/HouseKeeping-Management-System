@@ -88,9 +88,6 @@
     <Compile Include="Sign Up.xaml.cs">
       <DependentUpon>Sign Up.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Update Employer Profile.xaml.cs">
-      <DependentUpon>Update Employer Profile.xaml</DependentUpon>
-    </Compile>
     <Page Include="Delete Employee Account.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -144,10 +141,6 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Sign Up.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Update Employer Profile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

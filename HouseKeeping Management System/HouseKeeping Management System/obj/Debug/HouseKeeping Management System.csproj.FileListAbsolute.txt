@@ -66,9 +66,7 @@ F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management 
 F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Employee Dashboard.g.cs
 F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Employee Dashboard.baml
 F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Search Employee.g.cs
-F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Update Employer Profile.g.cs
 F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Search Employee.baml
-F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Update Employer Profile.baml
 F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Delete Employer Account.g.cs
 F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Delete Employer Account.baml
 F:\Spring-19\CSE-3204\No\HouseKeeping-Management-System\HouseKeeping Management System\HouseKeeping Management System\obj\Debug\Delete Employee Account.g.cs

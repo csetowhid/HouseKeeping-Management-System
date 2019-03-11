@@ -38,12 +38,14 @@ namespace HouseKeeping_Management_System
             while (read.Read())
             {
                 txt_details.Text = "Full Name : " + read[0].ToString();
-                txt_details.Text += "\n User Name : " + read[1].ToString();
+                txt_details.Text += "\nUser Name : " + read[1].ToString();
                 txt_details.Text += "\nEmail : " + read[2].ToString();
                 txt_details.Text += "\nPhone : " + read[4].ToString();
+                txt_details.Text += "\nAddress:" + read[5].ToString();
                 txt_details.Text += "\nNid : " + read[7].ToString();
                 txt_details.Text += "\nMarry : " + read[8].ToString();
-                txt_details.Text += "\n Religion : " + read[11].ToString();
+                txt_details.Text += "\nGender : " + read[9].ToString();
+                txt_details.Text += "\nReligion : " + read[11].ToString();
             }
             sqlcon.Close();
         }
@@ -55,7 +57,17 @@ namespace HouseKeeping_Management_System
 
         private void btn_exit(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            MessageBoxResult result = MessageBox.Show("Do You Want To Exit", "Exit", MessageBoxButton.YesNo);
+
+            switch (result)
+            {
+                case MessageBoxResult.Yes:
+                    System.Environment.Exit(0);
+                    break;
+                case MessageBoxResult.No:
+                    MessageBox.Show("Thank you!", "Exit");
+                    break;
+            }
         }
     }
 }

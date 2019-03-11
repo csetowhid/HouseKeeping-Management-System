@@ -31,7 +31,17 @@ namespace HouseKeeping_Management_System
 
         private void btn_exit(object sender, RoutedEventArgs e)
         {
-            this.Close();
+            MessageBoxResult result = MessageBox.Show("Do You Want To Exit", "Exit", MessageBoxButton.YesNo);
+
+            switch (result)
+            {
+                case MessageBoxResult.Yes:
+                    System.Environment.Exit(0);
+                    break;
+                case MessageBoxResult.No:
+                    MessageBox.Show("Thank you!", "Exit");
+                    break;
+            }
         }
 
         private void Delete(object sender, RoutedEventArgs e)
@@ -43,7 +53,7 @@ namespace HouseKeeping_Management_System
 
         private void Home(object sender, RoutedEventArgs e)
         {
-            MainWindow mw = new MainWindow();
+            Sign_In mw = new Sign_In();
             mw.Show();
             this.Close();
         }

@@ -13,7 +13,7 @@
         </Grid>
         <Button Content="Search Employee " HorizontalAlignment="Left" Margin="155,88,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Search_Employee"/>
         <Button Content="Delete Account" HorizontalAlignment="Left" Margin="155,152,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Delete"/>
-        <Button Content="Home" HorizontalAlignment="Left" Margin="155,215,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Home"/>
+        <Button Content="Sign Out" HorizontalAlignment="Left" Margin="155,215,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Home"/>
 
     </Grid>
 </Window>
