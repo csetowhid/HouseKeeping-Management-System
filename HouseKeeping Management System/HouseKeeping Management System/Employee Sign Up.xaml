@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HouseKeeping_Management_System"
         mc:Ignorable="d"
-        Title="Employee_Sign_Up" Height="600" Width="1100" Background="#FF5C99D6" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
+        Title="Employee_Sign_Up" Height="700" Width="1100" Background="#FF5C99D6" WindowStyle="None" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         <Grid HorizontalAlignment="Left" Height="67" VerticalAlignment="Top" Width="1100" RenderTransformOrigin="-0.004,-0.364" Background="#FF6991C7" MouseLeftButtonDown="Grid_MouseLeft">
             <Label Content="Employee Sign Up" HorizontalAlignment="Left" Margin="363,2,0,-11" VerticalAlignment="Top" Width="333" Height="76" Foreground="White" FontSize="48" FontFamily="Monotype Corsiva"/>
@@ -52,8 +52,9 @@
             <ComboBoxItem Content="Christian"/>
             <ComboBoxItem Content="Buddist"/>
         </ComboBox>
-        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="323,396,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign"/>
-        <Button Content="Reset" HorizontalAlignment="Left" Margin="599,396,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_reset"/>
-        <Button Content="Home" HorizontalAlignment="Left" Margin="323,476,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Home"/>
+        <Button Content="Sign In" HorizontalAlignment="Left" Margin="309,508,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Sign"/>
+        <Button Content="Reset" HorizontalAlignment="Left" Margin="585,506,0,0" VerticalAlignment="Top" Width="200" Height="60" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_reset"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="309,578,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Home"/>
+        <Button Content="Sign Up" HorizontalAlignment="Left" Margin="309,436,0,0" VerticalAlignment="Top" Width="475" Height="60" FontSize="36" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_sign"/>
     </Grid>
 </Window>

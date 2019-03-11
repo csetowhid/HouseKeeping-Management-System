@@ -48,6 +48,18 @@ namespace HouseKeeping_Management_System
             this.Close();
         }
 
-        
+        private void Home(object sender, RoutedEventArgs e)
+        {
+            MainWindow mw = new MainWindow();
+            mw.Show();
+            this.Close();
+        }
+
+        private void Delete(object sender, RoutedEventArgs e)
+        {
+            Delete_Employer_Account dm = new Delete_Employer_Account();
+            dm.Show();
+            this.Close();
+    }
     }
 }

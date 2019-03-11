@@ -115,5 +115,12 @@ namespace HouseKeeping_Management_System
             mw.Show();
             this.Close();
         }
+
+        private void Sign(object sender, RoutedEventArgs e)
+        {
+            Sign_In si = new Sign_In();
+            si.Show();
+            this.Close();
+        }
     }
 }

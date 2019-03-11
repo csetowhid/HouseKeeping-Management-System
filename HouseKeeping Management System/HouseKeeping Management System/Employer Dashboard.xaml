@@ -12,9 +12,8 @@
             <Button Content="X" HorizontalAlignment="Left" Margin="574,-1,-1,0" VerticalAlignment="Top" Width="27" Height="25" Background="#FFF50A0A" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="-2.469,0.739"/>
         </Grid>
         <Button Content="Search Employee " HorizontalAlignment="Left" Margin="155,88,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Search_Employee"/>
-        <Button Content="Update Profile" HorizontalAlignment="Left" Margin="155,160,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Update_Profile"/>
-        <Button Content="Delete Account" HorizontalAlignment="Left" Margin="155,228,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Button Content="Home" HorizontalAlignment="Left" Margin="155,296,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Update_Profile"/>
+        <Button Content="Delete Account" HorizontalAlignment="Left" Margin="155,152,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Delete"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="155,215,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Home"/>
 
     </Grid>
 </Window>

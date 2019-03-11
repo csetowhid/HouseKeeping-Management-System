@@ -55,6 +55,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Delete Employee Account.xaml.cs">
+      <DependentUpon>Delete Employee Account.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Delete Employer Account.xaml.cs">
+      <DependentUpon>Delete Employer Account.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Employee Dashboard.xaml.cs">
       <DependentUpon>Employee Dashboard.xaml</DependentUpon>
     </Compile>
@@ -85,6 +91,14 @@
     <Compile Include="Update Employer Profile.xaml.cs">
       <DependentUpon>Update Employer Profile.xaml</DependentUpon>
     </Compile>
+    <Page Include="Delete Employee Account.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Delete Employer Account.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Employee Dashboard.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
