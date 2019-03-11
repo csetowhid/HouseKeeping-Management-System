@@ -11,8 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
-using System.Data;
-using System.Data.SqlClient;
+
 
 namespace HouseKeeping_Management_System
 {
@@ -35,30 +34,20 @@ namespace HouseKeeping_Management_System
         {
             this.Close();
         }
-
-        private void btn_search(object sender, RoutedEventArgs e)
+        private void Search_Employee(object sender, RoutedEventArgs e)
         {
-            string connectionstring = @"Data Source=DESKTOP-1A5KDLM;Initial Catalog=fall16;Integrated Security=True";
-            SqlConnection sqlcon = new SqlConnection(connectionstring);
-            sqlcon.Open();
-            string commandstring = "select * from dbo.Employer where address='" + txtadd.Text+"'";
-            SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
-            SqlDataReader read = sqlcmd.ExecuteReader();
-
-            while (read.Read())
-            {
-                txt_details.Text = "Full Name : " + read[0].ToString();
-                txt_details.Text += "\n User Name : " + read[1].ToString();
-                txt_details.Text += "\nUser Id : " + read[2].ToString();
-                txt_details.Text += "\nEmail : " + read[3].ToString();
-                txt_details.Text += "\nPhone : " + read[5].ToString();
-                txt_details.Text += "\nNid : " + read[8].ToString();
-                txt_details.Text += "\nMarry : " + read[9].ToString();
-                txt_details.Text += "\n Religion : " + read[12].ToString();
-            }
-            sqlcon.Close();
-        
-        
+            Search_Employee se = new Search_Employee();
+            se.Show();
+            this.Close();
         }
+
+        private void Update_Profile(object sender, RoutedEventArgs e)
+        {
+            Update_Employer_Profile um = new Update_Employer_Profile();
+            um.Show();
+            this.Close();
+        }
+
+        
     }
 }

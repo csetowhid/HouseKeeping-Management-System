@@ -5,20 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HouseKeeping_Management_System"
         mc:Ignorable="d"
-        Title="Employer_Dashboard" Height="600" Background="#FF5C99D6" Width="800" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="Employer_Dashboard" Height="400" Background="#FF5C99D6" Width="600" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Grid HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="800" RenderTransformOrigin="-0.004,-0.364" Background="#FF6991C7" MouseLeftButtonDown="Grid_MouseLeft" Margin="0,-2,-302,0">
-            <Label Content="Employer Dashboard" HorizontalAlignment="Left" Margin="199,-4,0,-2" VerticalAlignment="Top" Width="385" Height="76" Foreground="White" FontSize="48" FontFamily="Monotype Corsiva"/>
-            <Button Content="X" HorizontalAlignment="Left" Margin="1279,-1,0,75" VerticalAlignment="Bottom" Width="20" Height="18" Background="{x:Null}" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="0.517,0.317"/>
-            <Image HorizontalAlignment="Left" Height="54" Margin="139,4,0,0" VerticalAlignment="Top" Width="52" Source="icons/employer.png" RenderTransformOrigin="-2.788,0.407"/>
-            <Image HorizontalAlignment="Left" Height="54" Margin="655,6,0,0" VerticalAlignment="Top" Width="52" Source="icons/employer.png" RenderTransformOrigin="-2.712,0.37"/>
-            <Button Content="X" HorizontalAlignment="Left" Margin="746,14,0,0" VerticalAlignment="Top" Width="30" Height="30" Background="#FFF50A0A" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="-2.469,0.739"/>
+        <Grid HorizontalAlignment="Left" Height="70" VerticalAlignment="Top" Width="600" RenderTransformOrigin="-0.004,-0.364" Background="#FF6991C7" MouseLeftButtonDown="Grid_MouseLeft" Margin="0,-2,-302,0">
+            <Label Content="Employer Dashboard" HorizontalAlignment="Left" Margin="93,-4,0,-2" VerticalAlignment="Top" Width="385" Height="76" Foreground="White" FontSize="48" FontFamily="Monotype Corsiva"/>
+            <Button Content="X" HorizontalAlignment="Left" Margin="574,-1,-1,0" VerticalAlignment="Top" Width="27" Height="25" Background="#FFF50A0A" BorderBrush="{x:Null}" Click="btn_exit" Foreground="White" RenderTransformOrigin="-2.469,0.739"/>
         </Grid>
-        <Label Content="Location" HorizontalAlignment="Left" Margin="95,161,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.704,-1.171"/>
-        <TextBox x:Name="txtadd" HorizontalAlignment="Left" Height="35" Margin="272,161,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="300" Foreground="#FF155799" Background="#FFEBEDEE" FontFamily="Times New Roman" FontSize="18"/>
-        <Label Content="Details" HorizontalAlignment="Left" Margin="97,225,0,0" VerticalAlignment="Top" Height="35" Width="115" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" RenderTransformOrigin="0.704,-1.171"/>
-        <TextBlock x:Name="txt_details" HorizontalAlignment="Left" Margin="248,212,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="352" Width="311" FontSize="18" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
-        <Button Content="Search" HorizontalAlignment="Left" Margin="615,218,0,0" VerticalAlignment="Top" Width="114" Height="36" FontSize="20" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="btn_search"/>
+        <Button Content="Search Employee " HorizontalAlignment="Left" Margin="155,88,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Search_Employee"/>
+        <Button Content="Update Profile" HorizontalAlignment="Left" Margin="155,160,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Update_Profile"/>
+        <Button Content="Delete Account" HorizontalAlignment="Left" Margin="155,228,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799"/>
+        <Button Content="Home" HorizontalAlignment="Left" Margin="155,296,0,0" VerticalAlignment="Top" Width="250" Height="50" FontSize="24" FontFamily="Times New Roman" Background="#FFEBEDEE" Foreground="#FF155799" Click="Update_Profile"/>
 
     </Grid>
 </Window>

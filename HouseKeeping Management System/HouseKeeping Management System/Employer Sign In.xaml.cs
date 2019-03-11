@@ -52,7 +52,7 @@ namespace HouseKeeping_Management_System
                 }
                 else
                 {
-                    MessageBox.Show("Not matched");
+                    MessageBox.Show("Username or Password Not Matched Try Again");
                 }
             }
             catch (Exception ex)
@@ -63,6 +63,17 @@ namespace HouseKeeping_Management_System
             {
                 sqlcon.Close();
             }
+        }
+
+        private void btn_exit(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Reset(object sender, RoutedEventArgs e)
+        {
+            txtusername.Clear();
+            pbpass.Clear();
         }
     }
 }

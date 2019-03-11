@@ -73,11 +73,17 @@
     <Compile Include="Employer Sign Up.xaml.cs">
       <DependentUpon>Employer Sign Up.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Search Employee.xaml.cs">
+      <DependentUpon>Search Employee.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Sign In.xaml.cs">
       <DependentUpon>Sign In.xaml</DependentUpon>
     </Compile>
     <Compile Include="Sign Up.xaml.cs">
       <DependentUpon>Sign Up.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Update Employer Profile.xaml.cs">
+      <DependentUpon>Update Employer Profile.xaml</DependentUpon>
     </Compile>
     <Page Include="Employee Dashboard.xaml">
       <SubType>Designer</SubType>
@@ -115,11 +121,19 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Search Employee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Sign In.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Sign Up.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Update Employer Profile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
